@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./src/index.mjs",
-    "start:dev": "nodemon ./src/index.mjs"
+    "start": "node ./src/app.js",
+    "start:dev": "nodemon ./src/app.js"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +16,9 @@
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^5.1.0"
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2"
   },
   "type": "module"
 }
